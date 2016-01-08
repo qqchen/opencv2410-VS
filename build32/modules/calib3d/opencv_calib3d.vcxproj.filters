@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\calibinit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\calibration.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\checkchessboard.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\circlesgrid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\epnp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\fisheye.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\fundam.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\modelest.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\p3p.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\polynom_solver.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\posit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\quadsubpix.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\solvepnp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\stereobm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\stereosgbm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\calib3d\src\triangulate.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\build32\modules\calib3d\opencv_calib3d_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\calib3d\include\opencv2\calib3d\calib3d.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\calib3d\src\circlesgrid.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\calib3d\src\fisheye.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\calib3d\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\calib3d\src\epnp.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\calib3d\src\p3p.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\calib3d\src\polynom_solver.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\calib3d\src\_modelest.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\research\cv\opencv2410\modules\calib3d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{06E716F4-DA7B-3B73-845E-742D6FDC69D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C6D19590-C4C1-3745-94D8-43B35875BACD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{B00A0CF2-4A5C-3189-BB27-B2BCDC4AF01E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{B5DFA3AC-0AB6-3E18-B238-BA1A10C0F8B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

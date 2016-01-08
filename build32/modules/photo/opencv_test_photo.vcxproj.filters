@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\photo\test\test_denoising.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\photo\test\test_inpaint.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\photo\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\build32\modules\photo\opencv_test_photo_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\photo\test\test_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\research\cv\opencv2410\modules\photo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{06E716F4-DA7B-3B73-845E-742D6FDC69D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{B00A0CF2-4A5C-3189-BB27-B2BCDC4AF01E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{B5DFA3AC-0AB6-3E18-B238-BA1A10C0F8B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

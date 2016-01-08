@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{26044AFC-249C-3A12-B3D7-777668DC1F7B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>opencv_highgui</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\research\cv\opencv2410\build32\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_highgui.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_highgui2410d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\research\cv\opencv2410\build32\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_highgui.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_highgui2410</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\research\cv\opencv2410\modules\highgui\perf;D:\research\cv\opencv2410\modules\video\include;D:\research\cv\opencv2410\modules\features2d\include;D:\research\cv\opencv2410\modules\highgui\include;D:\research\cv\opencv2410\modules\imgproc\include;D:\research\cv\opencv2410\modules\flann\include;D:\research\cv\opencv2410\modules\core\include;D:\research\cv\opencv2410\modules\ts\include;D:\research\cv\opencv2410\build32\modules\highgui;D:\research\cv\opencv2410\modules\highgui\src;D:\research\cv\opencv2410\modules\highgui\test;D:\research\cv\opencv2410\3rdparty\libjasper;D:\research\cv\opencv2410\build32\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libpng;D:\research\cv\opencv2410\3rdparty\libjpeg;D:\research\cv\opencv2410\build32\3rdparty\zlib;D:\research\cv\opencv2410\3rdparty\zlib;D:\research\cv\opencv2410\build32;D:\research\cv\opencv2410\3rdparty\openexr\Half;D:\research\cv\opencv2410\3rdparty\openexr\Iex;D:\research\cv\opencv2410\3rdparty\openexr\IlmThread;D:\research\cv\opencv2410\3rdparty\openexr\Imath;D:\research\cv\opencv2410\3rdparty\openexr\IlmImf;D:\research\cv\opencv2410\3rdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForcedIncludeFiles>D:/research/cv/opencv2410/modules/highgui/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>D:/research/cv/opencv2410/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;HIGHGUI_EXPORTS;CMAKE_INTDIR="Debug";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;HIGHGUI_EXPORTS;CMAKE_INTDIR=\"Debug\";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\research\cv\opencv2410\modules\highgui\perf;D:\research\cv\opencv2410\modules\video\include;D:\research\cv\opencv2410\modules\features2d\include;D:\research\cv\opencv2410\modules\highgui\include;D:\research\cv\opencv2410\modules\imgproc\include;D:\research\cv\opencv2410\modules\flann\include;D:\research\cv\opencv2410\modules\core\include;D:\research\cv\opencv2410\modules\ts\include;D:\research\cv\opencv2410\build32\modules\highgui;D:\research\cv\opencv2410\modules\highgui\src;D:\research\cv\opencv2410\modules\highgui\test;D:\research\cv\opencv2410\3rdparty\libjasper;D:\research\cv\opencv2410\build32\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libpng;D:\research\cv\opencv2410\3rdparty\libjpeg;D:\research\cv\opencv2410\build32\3rdparty\zlib;D:\research\cv\opencv2410\3rdparty\zlib;D:\research\cv\opencv2410\build32;D:\research\cv\opencv2410\3rdparty\openexr\Half;D:\research\cv\opencv2410\3rdparty\openexr\Iex;D:\research\cv\opencv2410\3rdparty\openexr\IlmThread;D:\research\cv\opencv2410\3rdparty\openexr\Imath;D:\research\cv\opencv2410\3rdparty\openexr\IlmImf;D:\research\cv\opencv2410\3rdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\research\cv\opencv2410\modules\highgui\perf;D:\research\cv\opencv2410\modules\video\include;D:\research\cv\opencv2410\modules\features2d\include;D:\research\cv\opencv2410\modules\highgui\include;D:\research\cv\opencv2410\modules\imgproc\include;D:\research\cv\opencv2410\modules\flann\include;D:\research\cv\opencv2410\modules\core\include;D:\research\cv\opencv2410\modules\ts\include;D:\research\cv\opencv2410\build32\modules\highgui;D:\research\cv\opencv2410\modules\highgui\src;D:\research\cv\opencv2410\modules\highgui\test;D:\research\cv\opencv2410\3rdparty\libjasper;D:\research\cv\opencv2410\build32\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libpng;D:\research\cv\opencv2410\3rdparty\libjpeg;D:\research\cv\opencv2410\build32\3rdparty\zlib;D:\research\cv\opencv2410\3rdparty\zlib;D:\research\cv\opencv2410\build32;D:\research\cv\opencv2410\3rdparty\openexr\Half;D:\research\cv\opencv2410\3rdparty\openexr\Iex;D:\research\cv\opencv2410\3rdparty\openexr\IlmThread;D:\research\cv\opencv2410\3rdparty\openexr\Imath;D:\research\cv\opencv2410\3rdparty\openexr\IlmImf;D:\research\cv\opencv2410\3rdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying D:/research/cv/opencv2410/3rdparty/ffmpeg/opencv_ffmpeg.dll to the output directory</Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy D:/research/cv/opencv2410/3rdparty/ffmpeg/opencv_ffmpeg.dll D:/research/cv/opencv2410/build32/bin/Release/opencv_ffmpeg2410.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy D:/research/cv/opencv2410/3rdparty/ffmpeg/opencv_ffmpeg.dll D:/research/cv/opencv2410/build32/bin/Debug/opencv_ffmpeg2410.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\opencv_imgproc2410d.lib;..\..\3rdparty\lib\Debug\zlibd.lib;..\..\3rdparty\lib\Debug\libjpegd.lib;..\..\3rdparty\lib\Debug\libpngd.lib;..\..\3rdparty\lib\Debug\libtiffd.lib;..\..\3rdparty\lib\Debug\libjasperd.lib;..\..\3rdparty\lib\Debug\IlmImfd.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;vfw32.lib;..\..\lib\Debug\opencv_core2410d.lib;..\..\3rdparty\lib\Debug\zlibd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/research/cv/opencv2410/3rdparty/lib;D:/research/cv/opencv2410/3rdparty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>atlthunk.lib;atlsd.lib;libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/research/cv/opencv2410/build32/lib/Debug/opencv_highgui2410d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/research/cv/opencv2410/build32/bin/Debug/opencv_highgui2410d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\research\cv\opencv2410\modules\highgui\perf;D:\research\cv\opencv2410\modules\video\include;D:\research\cv\opencv2410\modules\features2d\include;D:\research\cv\opencv2410\modules\highgui\include;D:\research\cv\opencv2410\modules\imgproc\include;D:\research\cv\opencv2410\modules\flann\include;D:\research\cv\opencv2410\modules\core\include;D:\research\cv\opencv2410\modules\ts\include;D:\research\cv\opencv2410\build32\modules\highgui;D:\research\cv\opencv2410\modules\highgui\src;D:\research\cv\opencv2410\modules\highgui\test;D:\research\cv\opencv2410\3rdparty\libjasper;D:\research\cv\opencv2410\build32\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libpng;D:\research\cv\opencv2410\3rdparty\libjpeg;D:\research\cv\opencv2410\build32\3rdparty\zlib;D:\research\cv\opencv2410\3rdparty\zlib;D:\research\cv\opencv2410\build32;D:\research\cv\opencv2410\3rdparty\openexr\Half;D:\research\cv\opencv2410\3rdparty\openexr\Iex;D:\research\cv\opencv2410\3rdparty\openexr\IlmThread;D:\research\cv\opencv2410\3rdparty\openexr\Imath;D:\research\cv\opencv2410\3rdparty\openexr\IlmImf;D:\research\cv\opencv2410\3rdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForcedIncludeFiles>D:/research/cv/opencv2410/modules/highgui/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>D:/research/cv/opencv2410/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;HIGHGUI_EXPORTS;CMAKE_INTDIR="Release";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;HIGHGUI_EXPORTS;CMAKE_INTDIR=\"Release\";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\research\cv\opencv2410\modules\highgui\perf;D:\research\cv\opencv2410\modules\video\include;D:\research\cv\opencv2410\modules\features2d\include;D:\research\cv\opencv2410\modules\highgui\include;D:\research\cv\opencv2410\modules\imgproc\include;D:\research\cv\opencv2410\modules\flann\include;D:\research\cv\opencv2410\modules\core\include;D:\research\cv\opencv2410\modules\ts\include;D:\research\cv\opencv2410\build32\modules\highgui;D:\research\cv\opencv2410\modules\highgui\src;D:\research\cv\opencv2410\modules\highgui\test;D:\research\cv\opencv2410\3rdparty\libjasper;D:\research\cv\opencv2410\build32\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libpng;D:\research\cv\opencv2410\3rdparty\libjpeg;D:\research\cv\opencv2410\build32\3rdparty\zlib;D:\research\cv\opencv2410\3rdparty\zlib;D:\research\cv\opencv2410\build32;D:\research\cv\opencv2410\3rdparty\openexr\Half;D:\research\cv\opencv2410\3rdparty\openexr\Iex;D:\research\cv\opencv2410\3rdparty\openexr\IlmThread;D:\research\cv\opencv2410\3rdparty\openexr\Imath;D:\research\cv\opencv2410\3rdparty\openexr\IlmImf;D:\research\cv\opencv2410\3rdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\research\cv\opencv2410\modules\highgui\perf;D:\research\cv\opencv2410\modules\video\include;D:\research\cv\opencv2410\modules\features2d\include;D:\research\cv\opencv2410\modules\highgui\include;D:\research\cv\opencv2410\modules\imgproc\include;D:\research\cv\opencv2410\modules\flann\include;D:\research\cv\opencv2410\modules\core\include;D:\research\cv\opencv2410\modules\ts\include;D:\research\cv\opencv2410\build32\modules\highgui;D:\research\cv\opencv2410\modules\highgui\src;D:\research\cv\opencv2410\modules\highgui\test;D:\research\cv\opencv2410\3rdparty\libjasper;D:\research\cv\opencv2410\build32\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libtiff;D:\research\cv\opencv2410\3rdparty\libpng;D:\research\cv\opencv2410\3rdparty\libjpeg;D:\research\cv\opencv2410\build32\3rdparty\zlib;D:\research\cv\opencv2410\3rdparty\zlib;D:\research\cv\opencv2410\build32;D:\research\cv\opencv2410\3rdparty\openexr\Half;D:\research\cv\opencv2410\3rdparty\openexr\Iex;D:\research\cv\opencv2410\3rdparty\openexr\IlmThread;D:\research\cv\opencv2410\3rdparty\openexr\Imath;D:\research\cv\opencv2410\3rdparty\openexr\IlmImf;D:\research\cv\opencv2410\3rdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying D:/research/cv/opencv2410/3rdparty/ffmpeg/opencv_ffmpeg.dll to the output directory</Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy D:/research/cv/opencv2410/3rdparty/ffmpeg/opencv_ffmpeg.dll D:/research/cv/opencv2410/build32/bin/Release/opencv_ffmpeg2410.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy D:/research/cv/opencv2410/3rdparty/ffmpeg/opencv_ffmpeg.dll D:/research/cv/opencv2410/build32/bin/Debug/opencv_ffmpeg2410.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\opencv_imgproc2410.lib;..\..\3rdparty\lib\Release\zlib.lib;..\..\3rdparty\lib\Release\libjpeg.lib;..\..\3rdparty\lib\Release\libpng.lib;..\..\3rdparty\lib\Release\libtiff.lib;..\..\3rdparty\lib\Release\libjasper.lib;..\..\3rdparty\lib\Release\IlmImf.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;vfw32.lib;..\..\lib\Release\opencv_core2410.lib;..\..\3rdparty\lib\Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/research/cv/opencv2410/3rdparty/lib;D:/research/cv/opencv2410/3rdparty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>atlthunk.lib;atlsd.lib;libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/research/cv/opencv2410/build32/lib/Release/opencv_highgui2410.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/research/cv/opencv2410/build32/bin/Release/opencv_highgui2410.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\research\cv\opencv2410\modules\highgui\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/research/cv/opencv2410/modules/highgui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/research/cv/opencv2410 -BD:/research/cv/opencv2410/build32 --check-stamp-file D:\research\cv\opencv2410\build32\modules\highgui\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/research/cv/opencv2410/modules/highgui/CMakeLists.txt;D:\research\cv\opencv2410\modules\highgui\CMakeLists.txt;D:\research\cv\opencv2410\modules\highgui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\research\cv\opencv2410\build32\modules\highgui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/research/cv/opencv2410/modules/highgui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/research/cv/opencv2410 -BD:/research/cv/opencv2410/build32 --check-stamp-file D:\research\cv\opencv2410\build32\modules\highgui\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/research/cv/opencv2410/modules/highgui/CMakeLists.txt;D:\research\cv\opencv2410\modules\highgui\CMakeLists.txt;D:\research\cv\opencv2410\modules\highgui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\research\cv\opencv2410\build32\modules\highgui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\include\opencv2\highgui\highgui.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\include\opencv2\highgui\cap_ios.h" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\include\opencv2\highgui\highgui_c.h" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\include\opencv2\highgui\ios.h" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\precomp.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\utils.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\cap_ffmpeg_impl.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\grfmts.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_base.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_bmp.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_exr.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_imageio.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_jpeg.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_jpeg2000.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_png.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_pxm.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_sunras.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_tiff.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\modules\highgui\src\bitstrm.hpp" />
+    <ClInclude Include="D:\research\cv\opencv2410\build32\cvconfig.h" />
+    <ClInclude Include="D:\research\cv\opencv2410\build32\opencv2\opencv_modules.hpp" />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\cap.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\cap_images.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\loadsave.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\utils.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\window.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\window_w32.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\cap_cmu.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\cap_dshow.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\cap_vfw.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\cap_ffmpeg.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_base.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_bmp.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_exr.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_imageio.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_jpeg.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_jpeg2000.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_png.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_pxm.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_sunras.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\grfmt_tiff.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\modules\highgui\src\bitstrm.cpp"  />
+    <ClCompile Include="D:\research\cv\opencv2410\build32\modules\highgui\opencv_highgui_pch.cpp" >
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/research/cv/opencv2410/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/research/cv/opencv2410/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/ZERO_CHECK.vcxproj">
+      <Project>D80F212E-08B9-3508-A2F1-0D846B58614C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/openexr/IlmImf.vcxproj">
+      <Project>BCAFDBE3-32CD-39BB-B86A-10006A4E7F74</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/libjasper/libjasper.vcxproj">
+      <Project>7A6D1BE0-EAA1-367F-97C4-B0BCAF4073C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/libjpeg/libjpeg.vcxproj">
+      <Project>9EF7F79A-2B24-3DC8-B955-56D5FA88E1A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/libpng/libpng.vcxproj">
+      <Project>500281EE-504E-3F74-A8FA-11704ED978ED</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/libtiff/libtiff.vcxproj">
+      <Project>9D8686D7-E9F4-33BE-A3F8-BAA7D48E6F6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/core/opencv_core.vcxproj">
+      <Project>462B5BB5-FB78-3E41-875A-AA002AD24FCD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/imgproc/opencv_imgproc.vcxproj">
+      <Project>D003E9A5-285E-3FD5-BCE1-26FDB76C9E92</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/zlib/zlib.vcxproj">
+      <Project>FC1D884A-AEB9-32F8-8F94-6DCBCA529870</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

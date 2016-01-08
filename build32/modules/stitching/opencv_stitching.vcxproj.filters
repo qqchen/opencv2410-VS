@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\stitching\src\autocalib.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\stitching\src\blenders.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\stitching\src\camera.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\stitching\src\exposure_compensate.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\stitching\src\matchers.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\stitching\src\motion_estimators.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\stitching\src\seam_finders.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\stitching\src\stitcher.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\stitching\src\util.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\stitching\src\warpers.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\build32\modules\stitching\opencv_stitching_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\stitcher.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\warpers.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\detail\autocalib.hpp">
+      <Filter>Include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\detail\blenders.hpp">
+      <Filter>Include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\detail\camera.hpp">
+      <Filter>Include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\detail\exposure_compensate.hpp">
+      <Filter>Include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\detail\matchers.hpp">
+      <Filter>Include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\detail\motion_estimators.hpp">
+      <Filter>Include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\detail\seam_finders.hpp">
+      <Filter>Include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\detail\util.hpp">
+      <Filter>Include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\detail\util_inl.hpp">
+      <Filter>Include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\detail\warpers.hpp">
+      <Filter>Include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\include\opencv2\stitching\detail\warpers_inl.hpp">
+      <Filter>Include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\stitching\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\research\cv\opencv2410\modules\stitching\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include\detail">
+      <UniqueIdentifier>{54A18728-AAC5-3C0B-A6F2-FABB4E74CDA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{06E716F4-DA7B-3B73-845E-742D6FDC69D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C6D19590-C4C1-3745-94D8-43B35875BACD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{B00A0CF2-4A5C-3189-BB27-B2BCDC4AF01E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{B5DFA3AC-0AB6-3E18-B238-BA1A10C0F8B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

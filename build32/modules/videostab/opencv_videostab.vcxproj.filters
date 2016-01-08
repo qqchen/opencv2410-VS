@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\videostab\src\deblurring.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\videostab\src\fast_marching.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\videostab\src\frame_source.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\videostab\src\global_motion.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\videostab\src\inpainting.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\videostab\src\log.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\videostab\src\motion_stabilizing.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\videostab\src\optical_flow.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\videostab\src\stabilizer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\build32\modules\videostab\opencv_videostab_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\include\opencv2\videostab\deblurring.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\include\opencv2\videostab\fast_marching.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\include\opencv2\videostab\fast_marching_inl.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\include\opencv2\videostab\frame_source.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\include\opencv2\videostab\global_motion.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\include\opencv2\videostab\inpainting.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\include\opencv2\videostab\log.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\include\opencv2\videostab\motion_stabilizing.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\include\opencv2\videostab\optical_flow.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\include\opencv2\videostab\stabilizer.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\include\opencv2\videostab\videostab.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\videostab\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\research\cv\opencv2410\modules\videostab\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{06E716F4-DA7B-3B73-845E-742D6FDC69D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C6D19590-C4C1-3745-94D8-43B35875BACD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{B00A0CF2-4A5C-3189-BB27-B2BCDC4AF01E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{B5DFA3AC-0AB6-3E18-B238-BA1A10C0F8B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

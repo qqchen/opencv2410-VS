@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_bilateral.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_blur.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_canny.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_cornerEigenValsAndVecs.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_cornerHarris.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_cvt_color.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_distanceTransform.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_filter2d.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_goodFeaturesToTrack.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_histogram.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_houghLines.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_integral.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_matchTemplate.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_morph.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_pyramids.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_remap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_resize.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_sepfilters.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_threshold.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_warp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\build32\modules\imgproc\opencv_perf_imgproc_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\imgproc\perf\perf_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\research\cv\opencv2410\modules\imgproc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{06E716F4-DA7B-3B73-845E-742D6FDC69D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{B00A0CF2-4A5C-3189-BB27-B2BCDC4AF01E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{B5DFA3AC-0AB6-3E18-B238-BA1A10C0F8B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

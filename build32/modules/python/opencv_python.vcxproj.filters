@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\python\src2\cv2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\modules\python\pyopencv_generated_funcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\modules\python\pyopencv_generated_func_tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\modules\python\pyopencv_generated_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\modules\python\pyopencv_generated_type_reg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\modules\python\pyopencv_generated_const_reg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\python\src2\cv2.cv.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\research\cv\opencv2410\modules\python\CMakeLists.txt" />
+    <CustomBuild Include="D:\research\cv\opencv2410\build32\CMakeFiles\62ec7156fc10d263a2231847073945a4\generated0.i.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\research\cv\opencv2410\build32\CMakeFiles\62ec7156fc10d263a2231847073945a4\pyopencv_generated_funcs.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\research\cv\opencv2410\build32\modules\python\generated0.i" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{06E716F4-DA7B-3B73-845E-742D6FDC69D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C6D19590-C4C1-3745-94D8-43B35875BACD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BC6A850F-46B8-3A0B-B208-ABDF7B7C1E95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

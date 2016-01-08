@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\adaptiveskindetector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\ba.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\basicretinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\bowmsctrainer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\chamfermatching.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\chowliutree.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\colormap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\colortracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\contrib_init.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\detection_based_tracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\facerec.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\featuretracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\fuzzymeanshifttracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\gencolors.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\hybridtracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\imagelogpolprojection.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\inputoutput.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\lda.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\logpolar_bsm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\magnoretinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\octree.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\openfabmap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\parvoretinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\polyfit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\retina.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\retinacolor.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\retinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\rgbdodometry.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\selfsimilarity.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\spinimages.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\modules\contrib\src\stereovar.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\research\cv\opencv2410\build32\modules\contrib\opencv_contrib_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\include\opencv2\contrib\contrib.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\include\opencv2\contrib\detection_based_tracker.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\include\opencv2\contrib\hybridtracker.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\include\opencv2\contrib\openfabmap.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\include\opencv2\contrib\retina.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\src\basicretinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\src\imagelogpolprojection.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\src\magnoretinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\src\parvoretinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\src\retinacolor.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\src\retinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\modules\contrib\src\templatebuffer.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\research\cv\opencv2410\build32\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\research\cv\opencv2410\modules\contrib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{06E716F4-DA7B-3B73-845E-742D6FDC69D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C6D19590-C4C1-3745-94D8-43B35875BACD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{B00A0CF2-4A5C-3189-BB27-B2BCDC4AF01E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{B5DFA3AC-0AB6-3E18-B238-BA1A10C0F8B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8E2311F6-64E4-3340-9FA8-BD4F24F62324}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\research\cv\opencv2410\build32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\research\cv\opencv2410\build32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\research\cv\opencv2410\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/research/cv/opencv2410/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/research/cv/opencv2410 -BD:/research/cv/opencv2410/build32 --check-stamp-file D:\research\cv\opencv2410\build32\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/research/cv/opencv2410/CMakeLists.txt;D:\research\cv\opencv2410\CMakeLists.txt;D:\research\cv\opencv2410\build32\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\research\cv\opencv2410\build32\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;D:\research\cv\opencv2410\build32\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\research\cv\opencv2410\build32\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\research\cv\opencv2410\cmake\OpenCVUtils.cmake;D:\research\cv\opencv2410\cmake\OpenCVDetectCXXCompiler.cmake;D:\research\cv\opencv2410\cmake\OpenCVLegacyOptions.cmake;D:\research\cv\opencv2410\cmake\OpenCVVersion.cmake;D:\research\cv\opencv2410\modules\core\include\opencv2\core\version.hpp;D:\research\cv\opencv2410\cmake\OpenCVCompilerOptions.cmake;D:\research\cv\opencv2410\cmake\OpenCVCRTLinkage.cmake;D:\research\cv\opencv2410\cmake\checks\winrttest.cpp;D:\research\cv\opencv2410\cmake\OpenCVPCHSupport.cmake;D:\research\cv\opencv2410\cmake\OpenCVModule.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\TestBigEndian.cmake;D:\research\cv\opencv2410\cmake\OpenCVFindLibsGrfmt.cmake;D:\research\cv\opencv2410\cmake\OpenCVFindLibsGUI.cmake;D:\research\cv\opencv2410\cmake\checks\win32uitest.cpp;D:\research\cv\opencv2410\cmake\OpenCVFindLibsVideo.cmake;D:\research\cv\opencv2410\cmake\checks\vfwtest.cpp;D:\research\cv\opencv2410\3rdparty\ffmpeg\ffmpeg_version.cmake;D:\research\cv\opencv2410\cmake\OpenCVFindLibsPerf.cmake;D:\research\cv\opencv2410\cmake\OpenCVDetectPython.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPythonLibs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindFrameworks.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\research\cv\opencv2410\cmake\OpenCVDetectApacheAnt.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindJNI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindJavaCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\research\cv\opencv2410\cmake\OpenCVDetectOpenCL.cmake;D:\research\cv\opencv2410\cmake\checks\opencl.cpp;D:\research\cv\opencv2410\cmake\OpenCVDetectVTK.cmake;D:\research\cv\opencv2410\cmake\OpenCVExtraTargets.cmake;D:\research\cv\opencv2410\cmake\templates\cmake_uninstall.cmake.in;D:\research\cv\opencv2410\cmake\OpenCVGenHeaders.cmake;D:\research\cv\opencv2410\cmake\templates\cvconfig.h.in;D:\research\cv\opencv2410\cmake\templates\opencv_modules.hpp.in;D:\research\cv\opencv2410\cmake\OpenCVGenPkgconfig.cmake;D:\research\cv\opencv2410\cmake\templates\opencv-XXX.pc.in;D:\research\cv\opencv2410\cmake\OpenCVGenAndroidMK.cmake;D:\research\cv\opencv2410\cmake\OpenCVGenConfig.cmake;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig.cmake.in;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig-version.cmake.in;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig.cmake.in;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig-version.cmake.in;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig.cmake.in;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig-version.cmake.in;D:\research\cv\opencv2410\cmake\OpenCVGenInfoPlist.cmake;D:\research\cv\opencv2410\cmake\OpenCVPackaging.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;D:\research\cv\opencv2410\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\research\cv\opencv2410\build32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/research/cv/opencv2410/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/research/cv/opencv2410 -BD:/research/cv/opencv2410/build32 --check-stamp-file D:\research\cv\opencv2410\build32\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/research/cv/opencv2410/CMakeLists.txt;D:\research\cv\opencv2410\CMakeLists.txt;D:\research\cv\opencv2410\build32\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\research\cv\opencv2410\build32\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;D:\research\cv\opencv2410\build32\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\research\cv\opencv2410\build32\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\research\cv\opencv2410\cmake\OpenCVUtils.cmake;D:\research\cv\opencv2410\cmake\OpenCVDetectCXXCompiler.cmake;D:\research\cv\opencv2410\cmake\OpenCVLegacyOptions.cmake;D:\research\cv\opencv2410\cmake\OpenCVVersion.cmake;D:\research\cv\opencv2410\modules\core\include\opencv2\core\version.hpp;D:\research\cv\opencv2410\cmake\OpenCVCompilerOptions.cmake;D:\research\cv\opencv2410\cmake\OpenCVCRTLinkage.cmake;D:\research\cv\opencv2410\cmake\checks\winrttest.cpp;D:\research\cv\opencv2410\cmake\OpenCVPCHSupport.cmake;D:\research\cv\opencv2410\cmake\OpenCVModule.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\TestBigEndian.cmake;D:\research\cv\opencv2410\cmake\OpenCVFindLibsGrfmt.cmake;D:\research\cv\opencv2410\cmake\OpenCVFindLibsGUI.cmake;D:\research\cv\opencv2410\cmake\checks\win32uitest.cpp;D:\research\cv\opencv2410\cmake\OpenCVFindLibsVideo.cmake;D:\research\cv\opencv2410\cmake\checks\vfwtest.cpp;D:\research\cv\opencv2410\3rdparty\ffmpeg\ffmpeg_version.cmake;D:\research\cv\opencv2410\cmake\OpenCVFindLibsPerf.cmake;D:\research\cv\opencv2410\cmake\OpenCVDetectPython.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPythonLibs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindFrameworks.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\research\cv\opencv2410\cmake\OpenCVDetectApacheAnt.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindJNI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindJavaCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\research\cv\opencv2410\cmake\OpenCVDetectOpenCL.cmake;D:\research\cv\opencv2410\cmake\checks\opencl.cpp;D:\research\cv\opencv2410\cmake\OpenCVDetectVTK.cmake;D:\research\cv\opencv2410\cmake\OpenCVExtraTargets.cmake;D:\research\cv\opencv2410\cmake\templates\cmake_uninstall.cmake.in;D:\research\cv\opencv2410\cmake\OpenCVGenHeaders.cmake;D:\research\cv\opencv2410\cmake\templates\cvconfig.h.in;D:\research\cv\opencv2410\cmake\templates\opencv_modules.hpp.in;D:\research\cv\opencv2410\cmake\OpenCVGenPkgconfig.cmake;D:\research\cv\opencv2410\cmake\templates\opencv-XXX.pc.in;D:\research\cv\opencv2410\cmake\OpenCVGenAndroidMK.cmake;D:\research\cv\opencv2410\cmake\OpenCVGenConfig.cmake;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig.cmake.in;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig-version.cmake.in;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig.cmake.in;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig-version.cmake.in;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig.cmake.in;D:\research\cv\opencv2410\cmake\templates\OpenCVConfig-version.cmake.in;D:\research\cv\opencv2410\cmake\OpenCVGenInfoPlist.cmake;D:\research\cv\opencv2410\cmake\OpenCVPackaging.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;D:\research\cv\opencv2410\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\research\cv\opencv2410\build32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/openexr/IlmImf.vcxproj">
+      <Project>BCAFDBE3-32CD-39BB-B86A-10006A4E7F74</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/libjasper/libjasper.vcxproj">
+      <Project>7A6D1BE0-EAA1-367F-97C4-B0BCAF4073C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/libjpeg/libjpeg.vcxproj">
+      <Project>9EF7F79A-2B24-3DC8-B955-56D5FA88E1A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/libpng/libpng.vcxproj">
+      <Project>500281EE-504E-3F74-A8FA-11704ED978ED</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/libtiff/libtiff.vcxproj">
+      <Project>9D8686D7-E9F4-33BE-A3F8-BAA7D48E6F6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/calib3d/opencv_calib3d.vcxproj">
+      <Project>DD6E132B-27D3-353B-9873-CD170E246ED3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/contrib/opencv_contrib.vcxproj">
+      <Project>39F1C96D-3C69-332F-94EB-4589C49B80FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/core/opencv_core.vcxproj">
+      <Project>462B5BB5-FB78-3E41-875A-AA002AD24FCD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/apps/haartraining/opencv_createsamples.vcxproj">
+      <Project>243DF260-33D2-3D56-950F-02F9D2EE0C73</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/features2d/opencv_features2d.vcxproj">
+      <Project>36E36965-32C6-393D-A445-7F1BCDB7CF51</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/flann/opencv_flann.vcxproj">
+      <Project>566E9C6E-0D84-3681-8D33-E5EA0B081A55</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/gpu/opencv_gpu.vcxproj">
+      <Project>BD16A44E-B570-3417-9787-AD0460BBD1EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/apps/haartraining/opencv_haartraining.vcxproj">
+      <Project>15E822C8-7D25-32D6-B744-C5E36D7B0036</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/apps/haartraining/opencv_haartraining_engine.vcxproj">
+      <Project>02B7DCDD-46B2-36CB-B5F2-00AED6054746</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/highgui/opencv_highgui.vcxproj">
+      <Project>26044AFC-249C-3A12-B3D7-777668DC1F7B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/imgproc/opencv_imgproc.vcxproj">
+      <Project>D003E9A5-285E-3FD5-BCE1-26FDB76C9E92</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/legacy/opencv_legacy.vcxproj">
+      <Project>E449B5CD-82AE-3E54-BFFE-009A6BECFA61</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/ml/opencv_ml.vcxproj">
+      <Project>7926870F-7548-39E1-AE98-FF6ABD799B54</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/nonfree/opencv_nonfree.vcxproj">
+      <Project>B840E0D8-8201-3240-A141-57A13DA9E16E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/objdetect/opencv_objdetect.vcxproj">
+      <Project>62934B13-B6E1-3C44-853B-379A0469F26C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/ocl/opencv_ocl.vcxproj">
+      <Project>FEED1B40-F291-3FC4-B5C0-F402C05BB147</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/calib3d/opencv_perf_calib3d.vcxproj">
+      <Project>71333697-7F77-3246-80EC-A4DEFB16F9E1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/core/opencv_perf_core.vcxproj">
+      <Project>438E7498-7B71-3A6B-A044-F0C374833B25</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/features2d/opencv_perf_features2d.vcxproj">
+      <Project>858EBC97-9AC1-3E33-B0D6-C3EC1547AB5B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/gpu/opencv_perf_gpu.vcxproj">
+      <Project>003952EF-04EF-34DF-BAD2-0444208CDA4F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/highgui/opencv_perf_highgui.vcxproj">
+      <Project>A6DF8835-4B92-3FD4-8B13-031B4481B552</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/imgproc/opencv_perf_imgproc.vcxproj">
+      <Project>B90C9BFB-5DE9-3AD0-A643-E781479D2981</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/nonfree/opencv_perf_nonfree.vcxproj">
+      <Project>9255CA69-880F-39EB-906D-CD2E33BAAEC9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/objdetect/opencv_perf_objdetect.vcxproj">
+      <Project>2D99A672-999E-3E71-BABF-B92E84EC12D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/ocl/opencv_perf_ocl.vcxproj">
+      <Project>52590A2F-0ED0-3F9A-8D30-3CA8EE4ECAAC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/photo/opencv_perf_photo.vcxproj">
+      <Project>A75B5A79-B04D-3B41-988D-7BF89A7F12A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/stitching/opencv_perf_stitching.vcxproj">
+      <Project>89D1AC69-47E0-312E-8058-31F19C918E39</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/superres/opencv_perf_superres.vcxproj">
+      <Project>97FD307C-C98E-3A2C-BA5E-7746210946D9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/video/opencv_perf_video.vcxproj">
+      <Project>5EE21464-67D3-392E-9378-436D768FB5FB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/apps/haartraining/opencv_performance.vcxproj">
+      <Project>AC23C181-FF52-3F7D-B5B9-ADE1D7F540FD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/photo/opencv_photo.vcxproj">
+      <Project>2164AA7F-718A-332A-B012-A0B00A1E1B86</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/python/opencv_python.vcxproj">
+      <Project>5E1B026D-9A27-37C9-B5AE-26CBDEE279B5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/stitching/opencv_stitching.vcxproj">
+      <Project>32D1E04F-7C9A-3321-B545-AB047C5F2539</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/superres/opencv_superres.vcxproj">
+      <Project>00ABFC0B-8851-3BDE-8C41-09741AAC2219</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/calib3d/opencv_test_calib3d.vcxproj">
+      <Project>84A9CC22-36B3-3AD3-A528-637AA4841024</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/contrib/opencv_test_contrib.vcxproj">
+      <Project>D7777F97-A67F-3C68-A9E4-DB60E64D41FA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/core/opencv_test_core.vcxproj">
+      <Project>D9CE49E9-EFDF-345D-B6E7-5A6155811781</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/features2d/opencv_test_features2d.vcxproj">
+      <Project>938EAAE3-50AF-3353-A8F3-01CA5EC8B811</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/flann/opencv_test_flann.vcxproj">
+      <Project>597DDF08-363A-37EC-AC1C-CF107E193CAA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/gpu/opencv_test_gpu.vcxproj">
+      <Project>341BCED3-E9E9-328E-AC28-EC4B4FA83D68</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/highgui/opencv_test_highgui.vcxproj">
+      <Project>38C22F22-F3B0-39DF-9861-49B896D0A4F3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/imgproc/opencv_test_imgproc.vcxproj">
+      <Project>E7A25A44-A735-3C28-8F29-CE1921921FAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/legacy/opencv_test_legacy.vcxproj">
+      <Project>5CD74F82-D509-30ED-9355-33EFED6E64D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/ml/opencv_test_ml.vcxproj">
+      <Project>247BB675-8A45-307E-AEB1-81F6FE341731</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/nonfree/opencv_test_nonfree.vcxproj">
+      <Project>7110D44F-EDCA-38D7-81F1-20E10A49D233</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/objdetect/opencv_test_objdetect.vcxproj">
+      <Project>04B02238-35A9-301B-B110-F918E791F83D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/ocl/opencv_test_ocl.vcxproj">
+      <Project>17B8D0C9-18A4-3134-8B45-59019CED1B6B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/photo/opencv_test_photo.vcxproj">
+      <Project>CBFF7020-37F2-3996-B937-F099C2E7C971</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/stitching/opencv_test_stitching.vcxproj">
+      <Project>DAE47E99-0B74-36C9-B3B3-7BB7E4A05A98</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/superres/opencv_test_superres.vcxproj">
+      <Project>40E98467-60DF-3A2E-8268-C9D40B4567A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/video/opencv_test_video.vcxproj">
+      <Project>B36FA8AA-6B97-39BF-95CC-BCDF72076F08</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/apps/traincascade/opencv_traincascade.vcxproj">
+      <Project>D585BE10-F19C-3CC2-A6F2-C688B6CED3A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/ts/opencv_ts.vcxproj">
+      <Project>C54BE43C-A354-3471-8558-C680469F1DBF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/video/opencv_video.vcxproj">
+      <Project>15DC6DA8-DB67-3307-95D4-A78009EB4608</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/modules/videostab/opencv_videostab.vcxproj">
+      <Project>930620C1-2D32-300F-B8CE-DBE2CCF970B0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/research/cv/opencv2410/build32/3rdparty/zlib/zlib.vcxproj">
+      <Project>FC1D884A-AEB9-32F8-8F94-6DCBCA529870</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
